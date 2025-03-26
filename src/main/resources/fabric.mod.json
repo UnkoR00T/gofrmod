@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gofrmod",
+	"version": "${version}",
+	"name": "GofrMod",
+	"description": "GofrMod!",
+	"authors": [
+		"Unko"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gofrmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.unko.gofrmod.GofrMod"
+		],
+		"fabric-datagen": [
+			"me.unko.gofrmod.GofrModDataGenerator"
+		],
+		"client": [
+            "me.unko.gofrmod.GofrModClient"
+        ]
+	},
+	"mixins": [
+		"gofrmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

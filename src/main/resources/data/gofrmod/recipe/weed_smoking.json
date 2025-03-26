@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": "gofrmod:weed",
+    "result": {
+        "id": "gofrmod:dried_weed"
+    },
+    "experience": 0.1,
+    "cookingtime": 300
+}

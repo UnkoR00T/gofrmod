@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": "gofrmod:weed",
+    "result": {
+        "id": "gofrmod:dried_weed"
+    },
+    "experience": 0.1,
+    "cookingtime": 600
+}

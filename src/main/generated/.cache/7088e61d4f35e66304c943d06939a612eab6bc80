@@ -1,0 +1,11 @@
+// 1.21.4	-999999999-01-01T00:00:00	GofrMod/Model Definitions
+c99ccf5eed619aba6536cb7cee0a93ef595a62cf assets/gofrmod/blockstates/weed_crop.json
+bdbe06f72f82ad565e3a2e5a19a99ac1886154bc assets/gofrmod/items/weed_seeds.json
+bc7dbb6a7160b9cad09c299757ae330dba49233f assets/gofrmod/models/block/weed_crop_stage0.json
+3fafa5d92e06df7d9052132822db45016e342f9c assets/gofrmod/models/block/weed_crop_stage1.json
+2225f9b3430d07de47afff877c39b9b381c2c935 assets/gofrmod/models/block/weed_crop_stage2.json
+b9cc3aa8c74ea72adbdd2664b5b131b1a8639dea assets/gofrmod/models/block/weed_crop_stage3.json
+46035b033eb0aecaab807c669b271c0a0ed8511a assets/gofrmod/models/block/weed_crop_stage4.json
+593d2aa061a824a632eed5195fd966dd60cc489c assets/gofrmod/models/block/weed_crop_stage5.json
+fabaa6cbccafa5c5ab3fd6fe931e8f66262db9c3 assets/gofrmod/models/block/weed_crop_stage6.json
+bfb949e5a792fc2a7a4bfc53d29106ce75cf2d01 assets/gofrmod/models/item/weed_seeds.json

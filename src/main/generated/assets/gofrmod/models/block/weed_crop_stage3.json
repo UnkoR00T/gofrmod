@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "gofrmod:block/weed_crop_stage3"
+  }
+}
