@@ -5,6 +5,8 @@
   "item.gofrmod.weed_seeds": "Weed Seed",
   "item.gofrmod.oil_bucket": "Bucket of oil",
   "item.gofrmod.oil_making_block": "Oil creating block",
+  "item.gofrmod.bleach_bucket": "Bucket of bleach",
+  "item.gofrmod.methylamine_bucket": "Bucket of methylamine",
 
   "block.gofrmod.weed_crop": "Weed crop",
   "block.gofrmod.oil_block": "Oil",

@@ -19,6 +19,8 @@ import java.util.function.Function;
 public class ModItems {
     public static final Item WEED = register("weed", Item::new, new Item.Settings());
     public static final Item DRIED_WEED = register("dried_weed", Item::new, new Item.Settings());
+    public static final Item BLEACH_BUCKET = register("bleach_bucket", Item::new, new Item.Settings());
+    public static final Item METHYLAMINE_BUCKET = register("methylamine_bucket", Item::new, new Item.Settings());
     public static final Item JOINT = register("joint", Item::new, new Item.Settings().food(Consumables.JOINT_FOOD_COMPONENT, Consumables.JOINT_CONSUMABLE_COMPONENT));
 
     public static final Item WEED_SEEDS = registerItem("weed_seeds", new BlockItem(ModBlocks.WEED_CROP_BLOCK, new Item.Settings()

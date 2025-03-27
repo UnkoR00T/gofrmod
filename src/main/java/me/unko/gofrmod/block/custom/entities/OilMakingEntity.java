@@ -8,6 +8,8 @@ import net.minecraft.network.listener.ClientPlayPacketListener;
 import net.minecraft.network.packet.Packet;
 import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -41,11 +43,10 @@ public class OilMakingEntity extends BlockEntity {
         return createNbt(registryLookup);
     }
     public static void tick(World world, BlockPos pos, BlockState state, OilMakingEntity blockEntity) {
-
         if(amount >= 1f && !isReady){
-            GofrMod.LOGGER.info("Ticking : " + amount + ", " + ticksPassed);
             ticksPassed++;
             if(ticksPassed >= 1200){
+                world.playSoundAtBlockCenter(pos, SoundEvents.BLOCK_ANVIL_LAND, SoundCategory.BLOCKS, 1f, 1f, true);
                 ticksPassed = 0;
                 isReady = true;
                 amount -= 1f;

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "gofrmod:item/oil_making_block"
+    "model": "gofrmod:item/bleach_bucket"
   }
 }

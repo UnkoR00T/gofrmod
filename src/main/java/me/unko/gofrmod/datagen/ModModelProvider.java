@@ -2,6 +2,7 @@ package me.unko.gofrmod.datagen;
 
 import me.unko.gofrmod.block.ModBlocks;
 import me.unko.gofrmod.block.custom.WeedCropBlock;
+import me.unko.gofrmod.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
