@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gofrmod:block/oil_making_block"
+    }
+  }
+}

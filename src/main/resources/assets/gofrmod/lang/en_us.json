@@ -3,6 +3,10 @@
   "item.gofrmod.dried_weed": "Dried Weed",
   "item.gofrmod.joint": "Joint",
   "item.gofrmod.weed_seeds": "Weed Seed",
+  "item.gofrmod.oil_bucket": "Bucket of oil",
+  "item.gofrmod.oil_making_block": "Oil creating block",
 
-  "block.gofrmod.weed_crop": "Weed crop"
+  "block.gofrmod.weed_crop": "Weed crop",
+  "block.gofrmod.oil_block": "Oil",
+  "block.gofrmod.oil_making_block": "Oil creating block"
 }

@@ -1,6 +1,7 @@
 package me.unko.gofrmod;
 
 import me.unko.gofrmod.block.ModBlocks;
+import me.unko.gofrmod.block.custom.entities.ModBlockEntities;
 import me.unko.gofrmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,6 +20,7 @@ public class GofrMod implements ModInitializer {
 		LOGGER.info("Initializing GofrMod!");
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerModBlockEntities();
 		CompostingChanceRegistry.INSTANCE.add(ModItems.WEED, 0.5f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.DRIED_WEED, 0.5f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.WEED_SEEDS, 0.3f);
