@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "gofrmod:heroin_leaf",
+        "gofrmod:heroin_leaf",
+        "gofrmod:heroin_leaf",
+        "gofrmod:heroin_leaf",
+        "gofrmod:bleach_bucket",
+        "gofrmod:heroin_leaf",
+        "gofrmod:heroin_leaf",
+        "gofrmod:heroin_leaf",
+        "gofrmod:heroin_leaf"
+    ],
+    "result": {
+        "id": "gofrmod:wet_heroin_leaf",
+        "count": 8
+    }
+}

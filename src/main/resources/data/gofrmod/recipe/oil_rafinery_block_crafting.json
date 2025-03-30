@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iCi",
+        "BIB",
+        "iCi"
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "C": "minecraft:cobblestone",
+        "B": "minecraft:bucket",
+        "I": "minecraft:iron_bars"
+    },
+    "result": {
+        "id": "gofrmod:oil_rafinery_block",
+        "count": 1
+    }
+}

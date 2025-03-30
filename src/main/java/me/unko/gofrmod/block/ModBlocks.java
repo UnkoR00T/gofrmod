@@ -1,12 +1,15 @@
 package me.unko.gofrmod.block;
 
 import me.unko.gofrmod.GofrMod;
+import me.unko.gofrmod.block.custom.HeroinBush;
 import me.unko.gofrmod.block.custom.OilMakingBlock;
+import me.unko.gofrmod.block.custom.OilRafineryBlock;
 import me.unko.gofrmod.block.custom.WeedCropBlock;
 import me.unko.gofrmod.fluid.ModFluids;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.FluidBlock;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.fluid.FlowableFluid;
@@ -34,6 +37,14 @@ public class ModBlocks {
             new OilMakingBlock(
                     AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(GofrMod.MOD_ID, "oil_making_block")))),
             true);
+    public static final Block OIL_RAFINERY_BLOCK = registerBlock("oil_rafinery_block",
+            new OilRafineryBlock(
+                    AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(GofrMod.MOD_ID, "oil_rafinery_block")))),
+            true);
+
+    public static final Block HEROIN_BUSH_BLOCK = registerBlock("heroin_bush_block", new HeroinBush(
+            AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(GofrMod.MOD_ID, "heroin_bush_block")))
+    ), false);
 
     private static Block registerBlock(String name, Block block, boolean registerItem) {
         if (registerItem){

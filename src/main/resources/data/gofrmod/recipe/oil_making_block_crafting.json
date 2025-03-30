@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iCi",
+        "UMU",
+        "iCi"
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "C": "minecraft:cobblestone",
+        "U": "minecraft:coal",
+        "M": "minecraft:magma_block"
+    },
+    "result": {
+        "id": "gofrmod:oil_making_block",
+        "count": 1
+    }
+}

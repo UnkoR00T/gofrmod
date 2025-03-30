@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "all": "gofrmod:block/oil_making_block"
+    "bottom": "gofrmod:block/oil_making_block_bottom",
+    "side": "gofrmod:block/oil_making_block_side",
+    "top": "gofrmod:block/oil_making_block_top"
   }
 }

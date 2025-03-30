@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gofrmod:item/methylamine_bucket"
+    "layer0": "gofrmod:item/powermix"
   }
 }

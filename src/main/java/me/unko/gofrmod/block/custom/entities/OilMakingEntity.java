@@ -39,6 +39,20 @@ public class OilMakingEntity extends BlockEntity {
     }
 
     @Override
+    protected void writeNbt(NbtCompound nbt, RegistryWrapper.WrapperLookup registries) {
+        nbt.putFloat("amount", amount);
+        nbt.putBoolean("isReady", isReady);
+        super.writeNbt(nbt, registries);
+    }
+
+    @Override
+    protected void readNbt(NbtCompound nbt, RegistryWrapper.WrapperLookup registries) {
+        amount = nbt.getFloat("amount");
+        isReady = nbt.getBoolean("isReady");
+        super.readNbt(nbt, registries);
+    }
+
+    @Override
     public NbtCompound toInitialChunkDataNbt(RegistryWrapper.WrapperLookup registryLookup) {
         return createNbt(registryLookup);
     }

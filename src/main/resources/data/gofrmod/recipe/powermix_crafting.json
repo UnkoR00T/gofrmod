@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "gofrmod:heroin",
+        "gofrmod:heroin",
+        "gofrmod:meth",
+        "gofrmod:heroin",
+        "gofrmod:meth"
+    ],
+    "result": {
+        "id": "gofrmod:powermix",
+        "count": 3
+    }
+}

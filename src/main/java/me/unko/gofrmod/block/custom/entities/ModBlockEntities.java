@@ -12,7 +12,9 @@ import net.minecraft.util.Identifier;
 
 public class ModBlockEntities {
     public static final BlockEntityType<OilMakingEntity> OIL_MAKING_BLOCK_ENTITY =
-            register("counter", OilMakingEntity::new, ModBlocks.OIL_MAKING_BLOCK);
+            register("oil_making", OilMakingEntity::new, ModBlocks.OIL_MAKING_BLOCK);
+    public static final BlockEntityType<OilRafineryEntity> OIL_RAFINERY_BLOCK_ENTITY =
+            register("oil_rafinery", OilRafineryEntity::new, ModBlocks.OIL_RAFINERY_BLOCK);
 
     private static <T extends BlockEntity> BlockEntityType<T> register(
             String name,

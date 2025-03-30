@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gofrmod:block/oil_rafinery_block"
+    }
+  }
+}

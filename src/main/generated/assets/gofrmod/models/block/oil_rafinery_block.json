@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "gofrmod:block/oil_rafinery_block_bottom",
+    "side": "gofrmod:block/oil_rafinery_block_side",
+    "top": "gofrmod:block/oil_rafinery_block_top"
+  }
+}

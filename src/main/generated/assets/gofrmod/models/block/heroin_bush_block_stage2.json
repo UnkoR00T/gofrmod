@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "gofrmod:block/heroin_bush_block_stage2"
+  }
+}

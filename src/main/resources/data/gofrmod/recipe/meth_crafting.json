@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "gofrmod:methylamine_bucket",
+        "gofrmod:bleach_bucket",
+        "minecraft:redstone"
+    ],
+    "result": {
+        "id": "gofrmod:meth",
+        "count": 4
+    }
+}

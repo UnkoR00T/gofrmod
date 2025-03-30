@@ -1,0 +1,17 @@
+{
+  "item.gofrmod.weed": "Marihuana",
+  "item.gofrmod.dried_weed": "Suszona marihuana",
+  "item.gofrmod.joint": "Joint",
+  "item.gofrmod.weed_seeds": "Nasiona marihuany",
+  "item.gofrmod.oil_bucket": "Wiadro ropy",
+  "item.gofrmod.oil_making_block": "Block produkcji ropy",
+  "item.gofrmod.oil_rafinery_block": "Rafineria",
+  "item.gofrmod.bleach_bucket": "Wiadro wybielacza",
+  "item.gofrmod.methylamine_bucket": "Wiadro metyloaminy",
+  "item.gofrmod.meth": "Metaanfetamina (15g)",
+  "item.gofrmod.heroin_leaf": "Liść herobriny",
+  "item.gofrmod.wet_heroin_leaf": "Wilgotna herobrina",
+  "item.gofrmod.dried_heroin_leaf": "Suszona herobrina",
+  "item.gofrmod.heroin": "Herobrina",
+  "item.gofrmod.powermix": "Mieszanka mocy"
+}

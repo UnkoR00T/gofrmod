@@ -12,6 +12,7 @@ public class GofrModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WEED_CROP_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HEROIN_BUSH_BLOCK, RenderLayer.getCutout());
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.OIL_STILL,
                 new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,

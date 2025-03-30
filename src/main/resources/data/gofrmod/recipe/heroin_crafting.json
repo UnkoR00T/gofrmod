@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:flint",
+        "gofrmod:dried_heroin_leaf",
+        "gofrmod:dried_heroin_leaf",
+        "gofrmod:dried_heroin_leaf"
+    ],
+    "result": {
+        "id": "gofrmod:heroin",
+        "count": 1
+    }
+}
